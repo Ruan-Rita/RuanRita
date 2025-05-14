@@ -11,10 +11,10 @@
         "projects": "Projetos"
     },
     "motivation": {
-        "intro": "Com grandes poderes vêm grandes contas de luz."
+        "intro": "Com grandes poderes vêm grandes responsabilidades."
     },
     "about_section": {
-        "desc": "Olá, sou o Ruan, um desenvolvedor web apaixonado com mais de 4 anos de experiência criando aplicações modernas, eficientes e amigáveis ao usuário. Minha jornada começou com o domínio de Java e Python e evoluiu para uma expertise profunda em Laravel, Next.js, Node.js e outras tecnologias de ponta.",
+        "desc": "Olá, sou o Ruan, um desenvolvedor web apaixonado com 5 anos de experiência criando aplicações modernas, eficientes e amigáveis ao usuário. Minha jornada começou com o domínio de Java e Python e evoluiu para uma expertise profunda em Laravel, Next.js, Node.js e outras tecnologias de ponta.",
         "desc_2": "Eu me destaco na construção de sistemas backend escaláveis, no design de experiências frontend perfeitas e na otimização do desempenho de projetos web. Atualmente, estou focado no desenvolvimento de aplicações dinâmicas, integração de APIs e na exploração de maneiras inovadoras de melhorar a arquitetura de software.",
         "desc_3": "Fora do trabalho, gosto de resolver desafios técnicos, orientar outras pessoas e experimentar novas tecnologias para manter minhas habilidades afiadas."
     },
@@ -22,6 +22,11 @@
     "databases": "Bancos de Dados",
     "method_arch": "Métodos/Arquitetura",
     "tools": "Ferramentas",
-    "freela_oppor": "Estou interessado em oportunidades freelance. No entanto, se você tiver outros pedidos ou dúvidas, não hesite em me contactar.",
-    "message_me": "Envie uma mensagem aqui"
+    "freela_oppor": "Estou interessado em oportunidades and freelance. No entanto, se você tiver outros pedidos ou dúvidas, não hesite em me contactar.",
+    "message_me": "Envie uma mensagem aqui",
+    "projects": {
+        "ionrecording": "Grava vídeos usando uma extensão do Google Chrome e permite visualizá-los em um dashboard.",
+        "newmail": "Plataforma de email marketing para criar fluxos de automação e sites personalizados.",
+        "motivator": "Site que gera uma frase motivacional por dia, inspirado nas constelações do zodíaco."
+    }
 }

@@ -11,10 +11,10 @@
         "projects": "Projects"
     },
     "motivation": {
-        "intro": "With great power comes great electricity bill."
+        "intro": "With great power comes great responsibility"
     },
     "about_section": {
-        "desc": "Hi, I’m Ruan, a passionate web developer with over 4 years of experience in crafting modern, efficient, and user-friendly web applications. My journey began with mastering Java and Python and has evolved into deep expertise in Laravel, Next.js, Node.js, and other cutting-edge technologies.",
+        "desc": "Hi, I’m Ruan, a passionate web developer with 5 years of experience in crafting modern, efficient, and user-friendly web applications. My journey began with mastering Java and Python and has evolved into deep expertise in Laravel, Next.js, Node.js, and other cutting-edge technologies.",
         "desc_2": "I thrive on building scalable backend systems, designing seamless frontend experiences, and optimizing performance for web projects. Currently, I’m focused on developing dynamic applications, integrating APIs, and exploring innovative ways to improve software architecture.",
         "desc_3": "Outside of work, I enjoy solving technical challenges, mentoring others, and experimenting with new technologies to keep my skills sharp."
     },
@@ -22,6 +22,11 @@
     "databases": "Databases",
     "method_arch": "Methods/Architecture",
     "tools": "Tools",
-    "freela_oppor": "I’m interested in freelance opportunities. However, if you have other requests or questions, don’t hesitate to contact me.",
-    "message_me": "Message me here"
+    "freela_oppor": "I’m interested in freelance and opportunities. However, if you have other requests or questions, don’t hesitate to contact me.",
+    "message_me": "Message me here",
+    "projects": {
+        "ionrecording": "Records videos using a Google Chrome extension and allows viewing them through a dashboard.",
+        "newmail": "Email marketing platform for creating automation flows and customizable websites.",
+        "motivator": "Website that generates a daily motivational quote, inspired by zodiac constellations."
+    }
 }

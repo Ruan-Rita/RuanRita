@@ -10,7 +10,7 @@ export default function TitleSection({title, link}) {
                 <hr className="bg-primary border-primary w-80"></hr>
             </div>
             {link && (
-                <Link href={link} className="flex items-center">
+                <Link href={link} className="flex items-center" target="_blank">
                     <h1 className="text-white mr-2">View all</h1>
                     <FaLongArrowAltRight className="text-white" width={20}/>
                 </Link>

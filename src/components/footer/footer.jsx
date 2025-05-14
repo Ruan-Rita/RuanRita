@@ -12,9 +12,15 @@ export default function Footer() {
                     <div>
                         <h1 className="text-white text-2xl">Media</h1>
                         <div className="flex gap-3 mt-5">
-                            <FaDiscord className="text-gray w-8 h-8" />
-                            <FaGithub className="text-gray w-8 h-8" />
-                            <FaLinkedin className="text-gray w-8 h-8" />
+                            <a href="https://discord.com/users/ruan_rita" target="_blank">
+                                <FaDiscord className="text-gray w-8 h-8 hover:text-primary" />
+                            </a>
+                            <a href="https://github.com/Ruan-Rita" target="_blank">
+                                <FaGithub className="text-gray w-8 h-8 hover:text-primary" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/ruan-rita-99885a1b6/" target="_blank">
+                                <FaLinkedin className="text-gray w-8 h-8 hover:text-primary" />
+                            </a>
                         </div>
 
                     </div>

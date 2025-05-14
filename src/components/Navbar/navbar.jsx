@@ -6,12 +6,14 @@ import { useLanguage } from '../../context/language-context';
 import Trans from '../../helper/language/trans';
 import Image from 'next/image';
 import ProfilePicutre from '../../../public/profile.jpg'
+import FlagBr from '../../../public/flag-brazil.png'
+import FlagUs from '../../../public/flag-us.png'
 
 
 const navigation = [
   { name: 'home', href: '/RuanRita', current: false },
-  { name: 'works', href: '#WORK', current: false },
-  { name: 'about', href: '#ABOUT', current: false },
+  { name: 'works', href: '#WORK-Section', current: false },
+  { name: 'about', href: '#ABOUT-Section', current: false },
   { name: 'contacts', href: '#CONTACTS', current: false },
 ]
 
@@ -70,9 +72,9 @@ export default function NavBar() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none  focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
-                      <span className="text-primary text-md font-bold">{Trans(language)}</span>
+                      <span className="text-primary text-md font-bold flex gap-2"><small>{language}</small><Image className="rounded" alt="flag brazil" src={language == 'en'?FlagUs:FlagBr} width={32} height={32}/></span>
                     </Menu.Button>
                   </div>
                   <Transition
@@ -89,18 +91,18 @@ export default function NavBar() {
                         <a
                           href="#"
                           onClick={() => changeLanguage('pt')}
-                          className={classNames(language === 'pt' ? 'bg-primary text-white' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                          className={classNames(language === 'pt' ? 'bg-primary text-white' : '', 'px-4 py-2 text-sm text-gray-700 flex gap-2')}
                         >
-                          {Trans('pt')}
+                          <Image className="rounded" alt="flag brazil" src={FlagBr} width={32} height={32}/><small>Portuguese</small>
                         </a>
                       </Menu.Item>
                       <Menu.Item>
                         <a
                           href="#"
                           onClick={() => changeLanguage('en')}
-                          className={classNames(language === 'en' ? 'bg-primary text-white' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                          className={classNames(language === 'en' ? 'bg-primary text-white' : '', 'px-4 py-2 text-sm text-gray-700 flex gap-2')}
                         >
-                          {Trans('en')}
+                          <Image className="rounded" alt="Flag United States" src={FlagUs} width={32} height={32}/><small>English</small>
                         </a>
                       </Menu.Item>
                     </Menu.Items>
