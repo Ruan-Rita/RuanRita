@@ -107,6 +107,13 @@ export default function Home() {
           <TitleSection title="Projects" link="https://github.com/Ruan-Rita?tab=repositories"/>
           <section className="mt-10 grid grid-cols-3 gap-8">
             <CardProject
+              title="Next.js React TypeScript TailwindCSS Supabase Shadcn/ui"
+              description={Trans('projects.finkomoney')}
+              name="FinkoMoney"
+              live="https://funko-money.com"
+              github="https://github.com/Ruan-Rita/finko-money"
+            />
+            <CardProject
               title="NestJs NextJs Docker Tailwind PostgresSQL"
               description={Trans('projects.ionrecording')}
               image={Url("/ion-recording.png")}
@@ -119,13 +126,6 @@ export default function Home() {
               image={Url("/newmail.png")}
               name="NewMail"
               github="https://github.com/Ruan-Rita/newmail"
-            />
-            <CardProject
-              title="Laravel Blade Tailwind"
-              description={Trans('projects.motivator')}
-              image={Url("/motivator.png")}
-              name="Motivator"
-              github="https://github.com/Ruan-Rita/motivator"
             />
           </section>
         </section>

@@ -25,8 +25,8 @@
     "freela_oppor": "I’m interested in freelance and opportunities. However, if you have other requests or questions, don’t hesitate to contact me.",
     "message_me": "Message me here",
     "projects": {
+        "finkomoney": "Personal finance manager that consolidates expenses from multiple banks, tracks recurring and installment payments, with a dashboard, categories, and a full REST API.",
         "ionrecording": "Records videos using a Google Chrome extension and allows viewing them through a dashboard.",
-        "newmail": "Email marketing platform for creating automation flows and customizable websites.",
-        "motivator": "Website that generates a daily motivational quote, inspired by zodiac constellations."
+        "newmail": "Email marketing platform for creating automation flows and customizable websites."
     }
 }
